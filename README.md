@@ -23,4 +23,4 @@
      - The **Eat Da Burger** page will load with three columns:
           - **Burger Menu** with some burgers ready to be devoured.
           - **Build-a-Burger**, where you can enter a new burger and add it to the menu.
-          - **Devoured Burgers**, where we can see a list of burgers eaten by previous folks.  You can also add one back to the menu should you decide you'd like to devour it yourself.
+          - **Devoured Burgers**, where we can see a list of burgers eaten by previous folks.  You can also add one back to the menu should you decide you'd like to devour it yourself.  You can also delete a burger that's been devoured.
