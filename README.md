@@ -1,4 +1,4 @@
-# burger
+# Eat Da Burger
 ### EatDaBurger Node Express Handlebars Application Deployed to Heroku
 
 #### Deployed on Heroku
