@@ -20,7 +20,7 @@
          - `App now listening at localhost:3000`
          - `connected as id [number]`
 - Open your browser and in the address bar, enter `http://localhost:3000/`
-     - The **8Eat Da Burger** page will load with three columns
-          - Burger Menu with some burgers ready to be devoured.
-          - Build-a-Burger, where you can enter a new burger and add it to the menu.
-          - Devoured Burgers, where we can see a list of burgers eaten by previous folks.  You can also add one back to the menu should you decide you'd like to devour it yourself.
+     - The **Eat Da Burger** page will load with three columns:
+          - **Burger Menu** with some burgers ready to be devoured.
+          - **Build-a-Burger**, where you can enter a new burger and add it to the menu.
+          - **Devoured Burgers**, where we can see a list of burgers eaten by previous folks.  You can also add one back to the menu should you decide you'd like to devour it yourself.
