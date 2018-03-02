@@ -1,0 +1,47 @@
+<!-- This file is fed into the body of main.handlebars.  
+In addition to that, it calls burger-block.handlebars and inserts it's DIV and buttons into this file for use as part of the body of main.handlebars.
+I also moved the script tags previously found in the main.handlebars head section so they would be at the bottom of the body of the page that is created. -->
+<div class="wrapper">
+	<div class="box"><img src="assets/img/mooby.png"></div>
+	<div class="box"><h1>Eat Da Burger</h1></div>
+	<div class="box"><img src="assets/img/mooby.png"></div>
+	<div class="box">
+		<h2>Burger Menu</h2>
+			{{#each burgers}}
+			{{#unless devoured}}
+			{{> burgers/burger-block onMenu=true}}
+			{{/unless}}
+			{{/each}}
+	</div>
+	<div class="box">
+		<h2>Build-a-Burger</h2>
+		<form class="create-form">
+			<div class="form-group">
+				<label for="ca">Burger Name:</label><br>
+				<input type="text" id="ca" name="name">
+			</div>
+		<button class="button" type="submit">Add Burger</button>
+		</form>
+		<img src="assets/img/burger00.png">
+	</div>
+	<div class="box">
+		<h2>Devoured Burgers</h2>
+			{{#each burgers}}
+			{{#if devoured}}
+			{{> burgers/burger-block onMenu=false}}
+			{{/if}}
+			{{/each}}
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="/assets/js/burgers.js"></script>
+
+
+
+
+
+
+
+
+
+

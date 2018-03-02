@@ -1,0 +1,87 @@
+/* ----- GENERAL CSS ----- */
+
+body {
+	padding: 20px;
+	background-color: #FED428;
+	font-family: 'Coiny', cursive;
+}
+
+img {
+	width: 200px;
+	margin: 10px 0 0 0;
+}
+
+h1 {
+	margin: 30 0 0 0;
+	padding: 0 0 0 0;
+}
+
+/* ----- CLASS CSS ----- */
+/* ----- TEXT ----- */
+
+.label {
+	font-weight: bold;
+}
+
+/* ----- CONTAINERS ----- */
+
+.create-update-form {
+	padding: 5px;
+	margin: 5px;
+}
+
+.form-group {
+	margin-bottom: 5px;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 10px;
+	background-color: #FED428;
+	color: #622690;
+}
+
+.box {
+	background-color: #622690;
+	color: #FED428;
+	border-radius: 5px;
+	padding: 0 20px 0 20px;
+	font-size: 150%;
+	text-align: center;
+}
+
+.boxy {
+	background-color: #FED428;
+	color: #622690;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+/* ----- BUTTONS ----- */
+
+.button {
+    background-color: #622690;
+    border: none;
+    color: #FED428;
+    padding: 3px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #FED428;
+    color: #622690; 
+    border: 2px solid #622690;
+	border-radius: 5px;
+	font-size: .5em;
+}
+
+.button:hover {
+    background-color: #622690;
+    color: #FED428;
+	border: 2px solid #FED428;
+}

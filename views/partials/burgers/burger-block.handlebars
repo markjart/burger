@@ -1,0 +1,11 @@
+<!-- This file is called by index.handlebars and is used to render the buttons for the burger menu and devoured burger lists. -->
+<div class="boxy">
+	{{name}}
+	<br>
+	<button class="change_burger button" data-id="{{id}}" data-newburger="{{onMenu}}">
+		{{#if onMenu}}Devour Da Burger!{{else}}Put Back on Da Menu!{{/if}}
+	</button>
+	<br>
+	{{#unless onMenu}}<button class="delete_burger button" data-id="{{this.id}}">Delete Da Burger</button>{{/unless}}
+</div>
+<br>
